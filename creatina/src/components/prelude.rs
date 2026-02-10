@@ -1,0 +1,11 @@
+pub use super::app::*;
+pub use super::benefits::*;
+pub use super::card::*;
+pub use super::link::*;
+pub use super::navbar::*;
+pub use super::title::*;
+pub use super::how_use::*;
+pub use super::product_technical::*;
+pub use super::final_cta::*;
+pub use super::faq::*;
+pub use super::footer::*;

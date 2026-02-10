@@ -1,0 +1,15 @@
+{
+  "name": "creatina",
+  "version": "0.0.1",
+ "scripts": {
+    "build:css": "tailwindcss -i ./src/styles.css -o ./public/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./src/styles.css -o ./public/tailwind.css --watch",
+    "dev": "npm run watch:css",
+    "cdev": "cargo run --features ssr && trunk serve --features csr --open",
+    "crelease": "cargo run --features ssr && trunk serve --release --features csr --open"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.11"
+  }
+
+}

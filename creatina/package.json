@@ -6,7 +6,8 @@
     "watch:css": "tailwindcss -i ./src/styles.css -o ./public/tailwind.css --watch",
     "dev": "npm run watch:css",
     "cdev": "cargo run --features ssr && trunk serve --features csr --open",
-    "crelease": "cargo run --features ssr && trunk serve --release --features csr --open"
+    "crelease": "cargo run --features ssr && trunk serve --release --features csr --open",
+    "build": "cargo run --features ssr && trunk build --release --features csr"
   },
   "devDependencies": {
     "tailwindcss": "^4.1.11"

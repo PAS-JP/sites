@@ -1,0 +1,12 @@
+[package]
+name = "sites"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+    "creatina"
+, "iphone"]
+
+[workspace.dependencies]
+leptos = "0.8.15"

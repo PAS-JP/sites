@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://growth-creatina.pasjp.com.br
+Sitemap: https://g-creatina.pasjp.com.br
